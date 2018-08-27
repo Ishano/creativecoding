@@ -4,8 +4,11 @@ function setup() {
 }
 
 function draw() {
-  ellipse(400, 240, 280, 280);
-  ellipse(400, 50, 100, 100)
-  ellipse(380,25,25,25)
-  ellipse(420,25,25,25)
+  //head
+  ellipse(100, 50, 120, 60);
+  //mouth
+  ellipse(95, 60, 70, 10)
+  //eyes
+  ellipse(70,25,15,15)
+  ellipse(125,25,15,15)
 }
