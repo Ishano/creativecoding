@@ -15,3 +15,10 @@ function draw() {
   ellipse(70,25,15,15)
   ellipse(125,25,15,15)
 }
+
+function draw() {
+  fill(153);
+  ellipse(132,82,200,200);
+  noFill();
+  ellipse(228,-16,200,200);
+}
